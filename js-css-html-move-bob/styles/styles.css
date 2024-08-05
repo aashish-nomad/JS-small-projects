@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(191, 122, 233);
+}
+
+.bob {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: rgb(238, 205, 170);
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.eye-container {
+  display: flex;
+  top: 45px;
+  left: 60px;
+  position: relative;
+}
+
+.eye {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 3px;
+  background-color: #fff;
+}
+
+.eye::after {
+  content: '';
+  position: relative;
+  top: 15px;
+  left: 25px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 10px;
+}
