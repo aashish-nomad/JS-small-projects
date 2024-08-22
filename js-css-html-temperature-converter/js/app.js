@@ -28,7 +28,7 @@ function calculate(primaryTempUnit, secondaryTempUnit, temp) {
     return temp;
   }
 
-  const combination = primaryTempUnit + '-' + secondaryTempUnit;
+  const combination = primaryTempUnit + '-' + secondaryTempUnit; primaryUnit.value;
   let result;
 
   switch (combination) {
